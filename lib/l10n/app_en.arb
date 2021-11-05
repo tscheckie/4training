@@ -28,5 +28,8 @@
     "more" : "More",
     "languages" : "Languages",
     "faq" : "FAQ",
-    "contact" : "Contact"
+    "contact" : "Contact",
+    "settings" : "Settings",
+    "noContent" : "We're sorry. It seems like you have no internet connection and this page also isn't stored on your device. Try connecting to the internet and refresh this page.",
+    "updating" : "Updating"
 }

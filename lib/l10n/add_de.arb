@@ -28,6 +28,9 @@
     "more" : "Mehr",
     "languages" : "Sprachen",
     "faq" : "FAQ",
-    "contact" : "Kontakt"
+    "contact" : "Kontakt",
+    "settings" : "Einstellungen",
+    "noContent" : "Das tut uns Leid. Es sieht so aus, als wärst du nicht mit dem Internet verbunden und als ob diese Seite nicht auf deinem Gerät gespeichert ist. Verbinde dich mit dem Intenet und lade die Seite neu.",
+    "updating" : "Aktualisiere"
 
 }

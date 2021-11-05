@@ -8,9 +8,9 @@ import 'package:http/http.dart' as http;
 import 'fetch_page.dart';
 
 class GetPage {
-  FutureBuilder getPage(String page_name) {
+  FutureBuilder getPage(String page_name, BuildContext c, bool updateFile) {
     return FutureBuilder(
-        future: FetchPage().fetchPage(http.Client(), page_name),
+        future: FetchPage().fetchPage(http.Client(), page_name, c, updateFile),
         builder: (BuildContext context, AsyncSnapshot<dynamic> snapshot) {
           if (snapshot.hasData) {
             return SingleChildScrollView(

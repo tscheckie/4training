@@ -14,6 +14,12 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final pageName = "Start";
+  bool _upDatePage = false;
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: const Text("4training"),
       ),
       drawer: const MainDrawer(),
-      body: GetPage().getPage(pageName),
+      body: GetPage().getPage(pageName, context, _upDatePage),
     );
   }
 }
